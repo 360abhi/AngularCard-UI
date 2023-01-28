@@ -1,0 +1,21 @@
+<div class= "pt-2 flex text-gray-700 justify-between">
+    <div #left class="left flex px-4 py-2 flex-col gap-1 w-[387px]"
+        [ngClass]="myclasses">
+        <h2 class="text-red-600 font-bold text-lg">Develop Across All Platforms</h2>
+        <p>Learn one way to build applications with Angular and reuse your code and abilities to build apps for any
+            deployment target. For web, mobile web, native mobile and native desktop</p>
+        <div class="mt-2"><button class="bg-red-700 ml-[250px] rounded-2xl px-2 py-2 text-white font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-red-500 duration-300 ">Learn More</button>
+        </div>
+    </div>
+    <div #right class="left flex px-4 py-2 flex-col gap-1 w-[387px]"
+        [ngClass]="myclasses" >
+        <h2 class="text-blue-600 font-bold text-lg">Develop Across All Platforms</h2>
+        <p>Learn one way to build applications with Angular and reuse your code and abilities to build apps for any
+            deployment target. For web, mobile web, native mobile and native desktop</p>
+        <div class="mt-2"><button class="bg-blue-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ml-[250px] rounded-2xl px-2 py-2 text-white font-bold">Learn More</button>
+        </div>
+    </div>
+</div>
+<div class="w-full mt-2">
+    <button (click)="change()" [ngClass]="myclasses" class=" px-3 py-2">Change background</button>
+</div>
