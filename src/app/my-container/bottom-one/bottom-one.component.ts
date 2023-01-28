@@ -22,7 +22,7 @@ export class BottomOneComponent {
 
     this.classservice.myData = {
       'bg-black': !this.changed,
-      'bg-white' : this.changed,
+      'bg-blue-500' : this.changed,
       'text-black': this.changed,
     };
 
