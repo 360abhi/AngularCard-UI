@@ -8,6 +8,7 @@ import { Classes } from 'src/app/Services/classes.service';
 })
 export class BottomOneComponent {
   changed: boolean = false;
+  isActive : boolean = false;
 
   constructor(public classservice: Classes) {}
 
@@ -35,6 +36,9 @@ export class BottomOneComponent {
     this.classservice.gray = {
       'grayscale': !this.changed
     }
+  }
 
+  changeText(): void {
+    this.isActive  = !this.isActive;
   }
 }
