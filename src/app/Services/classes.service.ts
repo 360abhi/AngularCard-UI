@@ -6,6 +6,6 @@ import { Injectable } from "@angular/core"
 
 export class Classes {
     
-
+    public gray:any;
     public myData:any;
 }

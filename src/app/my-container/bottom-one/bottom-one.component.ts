@@ -31,5 +31,10 @@ export class BottomOneComponent {
       'bg-black' : !this.changed,
       'text-white' : !this.changed
     }
+
+    this.classservice.gray = {
+      'grayscale': !this.changed
+    }
+
   }
 }
